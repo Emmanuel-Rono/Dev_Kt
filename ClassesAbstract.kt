@@ -42,3 +42,15 @@ fun main(args: Array<String>) {
     jack.displayJob("I'm a mathematics teacher.")
     
 }
+ # Lamdas
+ 
+    val lambda1={Fname:String,LastName:String ->
+println("Name $Fname  $LastName")}
+   
+
+fun main()
+{
+    //Invoking Lambas
+    lambda1("Joe", "Biden")
+}
+
